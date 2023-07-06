@@ -4,7 +4,7 @@
   <title>Login Page</title>
 </head>
 <body>
-  <center><h2>Login</h2>
+  <h2>Login</h2>
   <form action="login.php" method="post">
     <label for="username">Username:</label>
     <input type="text" id="username" name="username" required><br><br>
@@ -12,11 +12,14 @@
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required><br><br>
   
-    <button onclick="window.location.href="ms.html">login</button>
+  <button onclick="redirectToPage()">Login</button>
 
-  <a href="m8.html"></a>
+<script>
+  function redirectToPage() {
+    window.location.href = "m8.html.html";
+  }
+</script>
 
-</center>
   </form>
 </body>
 </html>
